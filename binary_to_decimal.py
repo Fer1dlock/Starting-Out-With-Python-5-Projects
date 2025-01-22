@@ -3,7 +3,7 @@ def binary_2_decimal(bin_num: int) -> int:
 
 
 def main():
-    print(binary_2_decimal(10011101))
+    assert binary_2_decimal(10011101) == 157
 
 
 if __name__ == '__main__':
